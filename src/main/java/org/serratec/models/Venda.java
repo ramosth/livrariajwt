@@ -154,7 +154,7 @@ public class Venda {
 	}
 
 	public String gerarProtocolo() {
-		if (this.protocolo == null || this.protocolo.isBlank()) {
+		if (this.protocolo == null || this.protocolo.length() == 0) {
 
 			LocalDateTime agora = LocalDateTime.now();
 			Random randomico = new Random();
