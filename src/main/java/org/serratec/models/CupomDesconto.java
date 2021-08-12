@@ -5,7 +5,7 @@ import java.util.List;
 public enum CupomDesconto {
 	
 	CUPOM10(0.1, List.of(Categoria.SUSPENSE, Categoria.AUTOAJUDA)),
-	CUPOM20(0.2, List.of()),
+	CUPOM20(0.2, List.of(Categoria.OUTROS)),
 	CUPOM50(0.5, List.of(Categoria.ROMANCE, Categoria.ACAO, Categoria.INVESTIGACAO, Categoria.CIENTIFICO));
 	
 	private Double valor;
